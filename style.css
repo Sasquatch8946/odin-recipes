@@ -1,6 +1,8 @@
 
 body.index {
     background-color: rgb(112, 74, 74);
+    margin: 16px auto;
+    padding: 8px;
 }
 
 body.index h1 {
@@ -15,13 +17,17 @@ body.index h1 {
     text-align: center;
     /* background-color: rgb(100, 100, 207); */
     list-style-position: inside;
-    margin-right: 6%;
+    margin-right: 5%;
+    width: auto;
 }
 
 .index li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: burlywood;
+    margin-top: 0px;   
+    margin-bottom: 8px;
+    
 }
 
 a {
@@ -32,6 +38,45 @@ a {
     background-color: rgb(165, 209, 165);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkolivegreen;
+    margin: 16px auto;
+    padding: 8px;
+    text-align: center;
+}
+
+.pie h1 {
+    text-align: center;
+}
+
+.pie img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie ul {
+    list-style-position: inside;
+    margin-right: 2.5%;
+}
+
+.pie ol {
+    list-style-position: inside;
+}
+
+.pie .description {
+    margin: 0;
+    padding: 0px 500px;
+}
+
+.description p {
+    margin: 0, 500px;
+    padding: 0, 500px;
+    display: block;
+    background:rgb(144, 212, 179)
+}
+
+.pie-ingredients {
+    background:rgb(92, 252, 175);
+    margin: 0px 500px;
 }
 
 .tortellini {
