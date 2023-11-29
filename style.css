@@ -17,7 +17,8 @@ body.index h1 {
     text-align: center;
     /* background-color: rgb(100, 100, 207); */
     list-style-position: inside;
-    margin-right: 5%;
+    /* margin-right: 5%; */
+    padding-right: 70px;
     width: auto;
 }
 
@@ -25,8 +26,10 @@ body.index h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     color: burlywood;
-    margin-top: 0px;   
-    margin-bottom: 8px;
+    background:rgb(0, 57, 0);
+    background-size: contain;
+    margin: 0px 200px 10px 200px;
+    border-radius: 30px;
     
 }
 
@@ -55,11 +58,12 @@ a {
 
 .pie ul {
     list-style-position: inside;
-    margin-right: 2.5%;
+    padding-right: 50px;
 }
 
 .pie ol {
     list-style-position: inside;
+    padding-right: 50px
 }
 
 .pie .description {
@@ -68,15 +72,25 @@ a {
 }
 
 .description p {
-    margin: 0, 500px;
-    padding: 0, 500px;
+    margin: 500px, 500px;
+    padding: 500px, 500px;
     display: block;
-    background:rgb(144, 212, 179)
+    background:rgb(144, 212, 179);
+    border-radius: 30px;
 }
 
 .pie-ingredients {
     background:rgb(92, 252, 175);
-    margin: 0px 500px;
+    margin: 20px 500px;
+    border-radius: 30px;
+}
+
+.pie .steps {
+    background: rgb(30, 141, 63); 
+    border-radius: 30px;
+    margin: 50px 500px;
+    font-size: bold;
+    color: black;
 }
 
 .tortellini {
@@ -117,4 +131,17 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     color: rgb(0, 57, 0);
+}
+
+#proshoot body {
+    box-sizing: border-box;
+}
+
+#proshoot h1 {
+    background: white;
+    margin-right: 1500px;
+    box-sizing: border-box;
+    height: auto;
+    width: max-content;
+    
 }
