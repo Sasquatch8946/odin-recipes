@@ -130,13 +130,18 @@ a {
     font-weight: 900;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
-    color: rgb(0, 57, 0);
+    color: salmon;
 }
+
 
 #proshoot body {
     box-sizing: border-box;
 }
 
+#proshoot > * {
+    background: white;
+    width: max-content;
+}
 #proshoot h1 {
     background: white;
     margin-right: 1500px;
