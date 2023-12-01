@@ -27,10 +27,12 @@
     display: flex;
     flex-direction: column;
     background:rgb(144, 212, 179);
+
 }
 
 .description p {
     width: 20rem;
+    line-height: 1.5em;
 }
 
 h2,
